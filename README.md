@@ -6,8 +6,8 @@ Librerías personalizadas para KiCad organizadas en tres categorías:
 
 ```
 libraries_kicad/
-├── symbols.kicad_sym      # Librería de símbolos (45 componentes)
-├── footprints.pretty/      # Librería de footprints (75 patrones)
+├── symbols.kicad_sym      # Librería de símbolos (19 componentes)
+├── footprints.pretty/      # Librería de footprints (80 patrones)
 ├── 3dmodels/              # Modelos 3D (14 modelos STEP)
 └── .gitignore
 ```
@@ -30,12 +30,12 @@ Componentes electrónicos para esquemáticos:
 
 ### Footprints (`footprints.pretty/`)
 
-Patrones de pads para PCB:
+Patrones de pads para PCB (80 total):
 
-- **SMD**: SOIC, QFN, DFN, SOT, QFP, DIP
-- **Conectores**: Pin headers, USB, Barrel Jack
-- **Pasivos**: 0603, 0805, 1206, 2512
-- **Especiales**: Raspberry Pi, displays, oscillators
+- **SMD**: SOIC, QFN, DFN, SOT, QFP (LQFP-32, TQFP-100), DIP
+- **Conectores**: Pin headers (1x02 a 2x15, vert/horiz), USB, Barrel Jack, Pololu Breakout
+- **Pasivos**: 0603, 0805, 1206, 2512 (R, C, D, L)
+- **Especiales**: Raspberry Pi Pico/W/Zero, displays, oscillators, test points (connector_pin1)
 
 ### Modelos 3D (`3dmodels/`)
 
@@ -81,7 +81,11 @@ Librerías bajo licencia GPL v2+ (compatible con KiCad)
 
 ## Changelog
 
+### v1.1.0
+- Agregados 5 footprints desde PCB cnc_pic32: PinHeader 1x04/1x06-H, TQFP-100, Pololu, connector_pin1
+- Total: 80 footprints
+
 ### v1.0.0
-- Versión inicial con 45 símbolos, 75 footprints y 14 modelos 3D
+- Versión inicial con 19 símbolos, 75 footprints y 14 modelos 3D
 - Eliminación de duplicados entre librerías
 - Organización en estructura limpia
