@@ -1,0 +1,172 @@
+(footprint "Crystal_SMD_0603-4Pin_6.0x3.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD0603/4, Crystal, 6.0x3.5mm package, SMD, http://www.petermann-technik.de/fileadmin/petermann/pdf/SMD0603-4.pdf")
+	(property "Reference" "REF**"
+		(at 0 -2.95 0)
+		(layer "F.SilkS")
+		(uuid "b64c98d8-1135-487d-a56d-85faa5642f22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Crystal_GND24"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(uuid "a7f6c0c2-c087-42c6-bc2d-d2e1507d880a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25c5bbee-62eb-4659-8667-bef75f22976d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bd405aa-b49c-42cf-bb79-d39cb0278f53")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "crystal_resonator_oscillator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9eac9fba-dbc2-4386-bbea-b5b37f2192be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "FT232")
+	(sheetfile "FT232BM.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.36 -2.16)
+		(end -3.36 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7002886-9345-4211-82d4-456f9815eeac")
+	)
+	(fp_line
+		(start -3.36 2.16)
+		(end 3.36 2.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3acfa457-ca60-4542-8b75-e1dcf66e731f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "9a8aff8d-b342-43ab-9fa4-127305dc301b")
+	)
+	(fp_rect
+		(start -3.5 -2.25)
+		(end 3.5 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c32bf779-7ccd-4ea5-89ed-f75ba34600ca")
+	)
+	(fp_poly
+		(pts
+			(xy 3 -1.75) (xy 3 1.75) (xy -2.125 1.75) (xy -3 0.875) (xy -3 -1.75)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6fc92d0c-7a13-4c38-a211-6120632588d7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1a128d4f-fc16-4907-988e-11ff4e699a91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.2 1.2)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "a3082056-e525-4cef-8a5f-0f74ee2eae36")
+	)
+	(pad "2" smd roundrect
+		(at 2.2 1.2)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "64aab1c8-5713-414d-9b2e-8312bff984f9")
+	)
+	(pad "3" smd roundrect
+		(at 2.2 -1.2)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "94d5249e-35ad-4814-8eae-824e00912f9c")
+	)
+	(pad "4" smd roundrect
+		(at -2.2 -1.2)
+		(size 1.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.178571)
+		(uuid "8f951192-218c-4e0f-8b25-2ab5ca181b6a")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://Crystal_SMD_0603-4Pin_6.0x3.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

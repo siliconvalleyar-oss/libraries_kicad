@@ -1,0 +1,31 @@
+# KiCad Libraries - .gitignore
+
+# ZIP files
+*.zip
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# macOS files
+.DS_Store
+._*
+
+# KiCad backup files
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Freerouting plugin (too large)
+freerouting/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,196 @@
+(footprint "D_2512_6332Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Diode SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
+	(tags "diode")
+	(property "Reference" "REF**"
+		(at 0 -2.63 0)
+		(layer "F.SilkS")
+		(uuid "4c166815-93f1-49d9-a0ac-a97d1b9c91cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1N4007"
+		(at 0 2.63 0)
+		(layer "F.Fab")
+		(uuid "fc592544-79da-48cb-bc89-e3ac004d15db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fe33de4-fcdc-460e-94d7-4bdf96dd5d10")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "deff60c6-223f-4652-abff-a0cb42aa127f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b7cdf5b-e7f1-4c7d-b94f-68bdd14cd040")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "POWER")
+	(sheetfile "POWER.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.835 -1.935)
+		(end -3.835 1.935)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0a99ca6-6005-47ff-ba21-0770c21ec172")
+	)
+	(fp_line
+		(start -3.835 1.935)
+		(end 3.15 1.935)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c26128a6-5848-45ed-9c8a-3a231f9f9662")
+	)
+	(fp_line
+		(start 3.15 -1.935)
+		(end -3.835 -1.935)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79493e93-7e7f-4e81-975a-53715c815912")
+	)
+	(fp_rect
+		(start -3.83 -1.93)
+		(end 3.83 1.93)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "78bc6766-272e-4e40-ac4b-93e9929aa8d6")
+	)
+	(fp_line
+		(start -3.15 -0.8)
+		(end -3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0a709935-f73e-4f26-89b8-72c7c66d7b95")
+	)
+	(fp_line
+		(start -3.15 1.6)
+		(end 3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2956ee73-9142-4ba4-9494-c4f913dd57c2")
+	)
+	(fp_line
+		(start -2.35 -1.6)
+		(end -3.15 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "656574c5-b5dc-4222-9271-cf242a06c58c")
+	)
+	(fp_line
+		(start 3.15 -1.6)
+		(end -2.35 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ebb2fa3-91f6-45a5-b79e-7b8131e3eb32")
+	)
+	(fp_line
+		(start 3.15 1.6)
+		(end 3.15 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d38b792e-72aa-48a6-8845-1d4e15cee987")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "002330a6-fa08-47c6-a069-e42dbc252704")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9 0)
+		(size 1.35 3.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.185185)
+		(uuid "88b98a9c-8672-4048-8112-f39f5696ef29")
+	)
+	(pad "2" smd roundrect
+		(at 2.9 0)
+		(size 1.35 3.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.185185)
+		(uuid "4f2e0146-efc1-4f1c-96f4-35f3006710b1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_2512_6332Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

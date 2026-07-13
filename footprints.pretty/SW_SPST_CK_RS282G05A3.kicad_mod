@@ -1,0 +1,295 @@
+(footprint "SW_SPST_CK_RS282G05A3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
+	(tags "SPST button tactile switch")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "e13139e3-d1da-4c8c-9aa0-dbfbdc30ebe7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "up"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "96e378f2-f29d-42e1-a036-3da972a3d7e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c186c771-114d-48f5-a0da-6323bcfa03ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d82eaa07-2871-4ef4-ac34-68452a7d6586")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "BUTTONS")
+	(sheetfile "BUTONS.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 3.06 1.85)
+		(end -3.06 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c38771d1-6485-49b7-939f-8bc74a355adb")
+	)
+	(fp_line
+		(start 3.06 -1.85)
+		(end 3.06 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d3851c9-5027-4152-983a-5882a7b78563")
+	)
+	(fp_line
+		(start -3.06 1.85)
+		(end -3.06 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b39658b-91db-4a8d-80b1-1183afca6027")
+	)
+	(fp_line
+		(start -3.06 -1.85)
+		(end 3.06 -1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a57dae03-5228-425a-b365-c6a8b8abd49b")
+	)
+	(fp_line
+		(start 4.9 2.05)
+		(end -4.9 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f9d2a000-3739-4bd7-a743-325fd5d75740")
+	)
+	(fp_line
+		(start 4.9 -2.05)
+		(end 4.9 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3497ee98-c6cb-437a-9a04-1d1b612a7728")
+	)
+	(fp_line
+		(start -4.9 2.05)
+		(end -4.9 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ee184d3-f290-48ac-8f64-8306f82dd634")
+	)
+	(fp_line
+		(start -4.9 -2.05)
+		(end 4.9 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d00c7f2-60ba-4462-b11a-9ca2de85d739")
+	)
+	(fp_line
+		(start 3 -1.8)
+		(end 3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "700ef6f3-f57d-4884-a823-1b3672f5544e")
+	)
+	(fp_line
+		(start 1.75 1)
+		(end -1.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4d8b38ce-7f3c-4815-bf1c-1e758e8458a6")
+	)
+	(fp_line
+		(start 1.75 -1)
+		(end 1.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9db2b24c-d14a-4f12-a7d2-bc91a66cc3b1")
+	)
+	(fp_line
+		(start 1.5 -0.8)
+		(end 1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e180afb-6705-4ffa-8050-7e3061756e8e")
+	)
+	(fp_line
+		(start -1.5 0.8)
+		(end 1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc0a4066-2c00-47bc-b120-f30e1e1fc55c")
+	)
+	(fp_line
+		(start -1.5 -0.8)
+		(end 1.5 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd869322-ccc9-42e0-8d6a-b64b3f7956af")
+	)
+	(fp_line
+		(start -1.5 -0.8)
+		(end -1.5 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4c8ee3f-5eb9-4376-844c-d5153bb8e535")
+	)
+	(fp_line
+		(start -1.75 1)
+		(end -1.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "812e7926-6663-415b-b4e0-346528bbf4b4")
+	)
+	(fp_line
+		(start -1.75 -1)
+		(end 1.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "118e4500-d978-4bbb-9154-a9ea4530955f")
+	)
+	(fp_line
+		(start -3 1.8)
+		(end 3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8ae587a7-5991-42f8-8819-85a86c9d030a")
+	)
+	(fp_line
+		(start -3 -1.8)
+		(end 3 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aa263e8-a51b-4730-b3a3-52216e8bf4f0")
+	)
+	(fp_line
+		(start -3 -1.8)
+		(end -3 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e95157f-665c-40fb-ac20-29bc1cde93da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.6 0)
+		(layer "F.Fab")
+		(uuid "564d9957-8624-4d21-ab20-29630a2e6f21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.9 0 180)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "28971e46-f31f-47e4-9035-6e805a900545")
+	)
+	(pad "2" smd rect
+		(at 3.9 0 180)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78787580-728f-41a8-8ecd-f966a316216e")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://SW_SPST_CK_RS282G05A3.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
