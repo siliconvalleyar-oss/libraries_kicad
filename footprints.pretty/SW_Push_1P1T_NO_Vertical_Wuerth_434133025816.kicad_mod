@@ -1,0 +1,304 @@
+(footprint "SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
+	(tags "tactile switch Wurth Wuerth")
+	(property "Reference" "REF**"
+		(at -0.07 2.785 180)
+		(layer "F.SilkS")
+		(uuid "5e7e8869-8f80-41a7-a3b7-c4f933837cff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "7fc85acc-6936-45bc-bf8b-be8cfa1553bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adcad687-f9b2-45b6-b22d-525685874023")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d75ca3c1-fa7e-41d7-ac88-81feae2b8f30")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(sheetfile "pico_vga_sd_aud.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.2 0.05)
+		(end -2.2 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fba3384f-9b27-4849-9a30-cff609d8be1c")
+	)
+	(fp_line
+		(start -2.2 1.75)
+		(end 2.2 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "606d5a93-1418-45fd-bd96-33c77d78fb07")
+	)
+	(fp_line
+		(start 2.2 -1.75)
+		(end -2.2 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22ca3ed5-9fb9-4264-88ba-842aff9972b4")
+	)
+	(fp_line
+		(start 2.2 0.05)
+		(end 2.2 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e6c7a78-8a37-41b2-bce7-3bf30a3a3b29")
+	)
+	(fp_line
+		(start -2.85 -1.85)
+		(end 2.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2dc3e56b-9d10-4952-867d-592a6f8bdf95")
+	)
+	(fp_line
+		(start -2.85 1.85)
+		(end -2.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16235146-dc43-4850-bcc9-d72692597480")
+	)
+	(fp_line
+		(start 2.85 -1.85)
+		(end 2.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efe2d6ad-ccc8-494e-9a5a-c737653a966c")
+	)
+	(fp_line
+		(start 2.85 1.85)
+		(end -2.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1667aa49-0df2-4887-9afb-29e593079962")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8432286b-c1b1-40e8-9c4e-1d5f3ed5bf3d")
+	)
+	(fp_line
+		(start -2.1 -1.1)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27ba36b9-e181-4536-98c8-57746b815924")
+	)
+	(fp_line
+		(start -2.1 1.1)
+		(end -1.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4c4fff9-be97-470f-a2e4-75795fc11823")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5ef25ec-b85e-42ec-bfb4-aacdb0c25b0f")
+	)
+	(fp_line
+		(start -0.9 -1.1)
+		(end 0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8b6095b-e982-4914-b5cf-b4398312ac14")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end -0.9 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b82f9c71-7e4c-4ebd-91b6-d5c2cd1adb91")
+	)
+	(fp_line
+		(start 1.6 -1.6)
+		(end 2.1 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17ce7946-2e09-4022-bfef-3f966e954f41")
+	)
+	(fp_line
+		(start 1.6 1.6)
+		(end 2.1 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5427cd1b-a4d0-4bac-9740-593a902958d5")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "93c9aed5-9472-4ae2-a14e-1d1253871c7d")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "51080755-d662-4141-b4cf-73bdf79a7709")
+	)
+	(fp_arc
+		(start -0.9 1.099999)
+		(mid -1.460147 0)
+		(end -0.9 -1.099999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c29ecf6a-9d84-4c1b-bff2-a7b1ac37ff08")
+	)
+	(fp_arc
+		(start 0.8 -1.099999)
+		(mid 1.40384 0)
+		(end 0.799999 1.099999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b6dabd28-4772-4fed-a4e1-48f1a12fa0bb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 0 0)
+		(layer "F.Fab")
+		(uuid "43bb611a-ac51-4ee1-a341-ed9c477ead2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8a90409-25e8-4e17-b1fd-7caa665308ce")
+	)
+	(pad "1" smd rect
+		(at 2.075 -1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0133f5fc-f2fc-46b3-8f46-d21669a7ea57")
+	)
+	(pad "2" smd rect
+		(at -2.075 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f48f72d5-2db5-4115-ae67-62c377a841c4")
+	)
+	(pad "2" smd rect
+		(at 2.05 1.075)
+		(size 1.05 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "92cfb047-0d15-4d87-84e4-843b17179300")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_Vertical_Wuerth_434133025816.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,275 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-09-21T19:24:12
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7ace
+Path = /00000000-0000-0000-0000-00005f0930a1
+Reference = C4;
+ValeurCmp = 10u;
+IdModule  = RPI_COMPILED:generic_capc2012x125;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7b17
+Path = /00000000-0000-0000-0000-00005edb7d8d
+Reference = J1;
+ValeurCmp = 10103594-0001LF;
+IdModule  = RPI_COMPILED:amphenol_10103594-0001lf;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7b7e
+Path = /00000000-0000-0000-0000-00005f30f0ba
+Reference = J2;
+ValeurCmp = TSW-102-07-G-S;
+IdModule  = RPI_COMPILED:samtec_tsw-102-07-g-s;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7be1
+Path = /00000000-0000-0000-0000-00005f4b4ce4
+Reference = J3;
+ValeurCmp = TSW-118-07-L-D;
+IdModule  = RPI_COMPILED:samtec_tsw-118-07-l-d;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7c61
+Path = /00000000-0000-0000-0000-00005ef08170
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7c8b
+Path = /00000000-0000-0000-0000-00005ef07987
+Reference = C8;
+ValeurCmp = 1u;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7cdf
+Path = /00000000-0000-0000-0000-00005eef0994
+Reference = C13;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7d09
+Path = /00000000-0000-0000-0000-00005edb1aa1
+Reference = C5;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7d72
+Path = /00000000-0000-0000-0000-00005edac067
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = RPI_COMPILED:generic_resc1005x35;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7dc7
+Path = /00000000-0000-0000-0000-00005f4b0bc9
+Reference = J4;
+ValeurCmp = TSW-118-07-L-D;
+IdModule  = RPI_COMPILED:samtec_tsw-118-07-l-d;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7e78
+Path = /00000000-0000-0000-0000-00005f04c8b7
+Reference = U1;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = RPI_COMPILED:onsemi_ncp1117st33t3g;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7ec0
+Path = /00000000-0000-0000-0000-00005eda5f2c
+Reference = U2;
+ValeurCmp = W25Q128JVSIQ;
+IdModule  = RPI_COMPILED:generic_soic127p790x195-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7f34
+Path = /00000000-0000-0000-0000-00005edae9f0
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = RPI_COMPILED:generic_resc1005x35;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7f5e
+Path = /00000000-0000-0000-0000-00005eeee897
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7f88
+Path = /00000000-0000-0000-0000-00005eef0473
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7fc7
+Path = /00000000-0000-0000-0000-00005eef89b3
+Reference = C14;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff7ff1
+Path = /00000000-0000-0000-0000-00005ede0881
+Reference = R3;
+ValeurCmp = 27;
+IdModule  = RPI_COMPILED:generic_resc1005x35;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff8030
+Path = /00000000-0000-0000-0000-00005ef0050f
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff805c
+Path = /00000000-0000-0000-0000-00005f09255d
+Reference = C1;
+ValeurCmp = 10u;
+IdModule  = RPI_COMPILED:generic_capc2012x125;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff808a
+Path = /00000000-0000-0000-0000-00005eef00bb
+Reference = C11;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff80b4
+Path = /00000000-0000-0000-0000-00005eef89c7
+Reference = C16;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff812a
+Path = /00000000-0000-0000-0000-00005ed8f5d6
+Reference = U3;
+ValeurCmp = RP2040;
+IdModule  = RPI_COMPILED:rpi_rp2040_vias;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff823f
+Path = /00000000-0000-0000-0000-00005ef4cf1f
+Reference = MH2;
+ValeurCmp = NPTH FD2.75mm SM3.15mm KO6mm;
+IdModule  = RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff825b
+Path = /00000000-0000-0000-0000-00005ede1624
+Reference = R4;
+ValeurCmp = 27;
+IdModule  = RPI_COMPILED:generic_resc1005x35;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005eff8335
+Path = /00000000-0000-0000-0000-00005ef4d323
+Reference = MH3;
+ValeurCmp = NPTH FD2.75mm SM3.15mm KO6mm;
+IdModule  = RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005effa605
+Path = /00000000-0000-0000-0000-00005ef00505
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005effaa24
+Path = /00000000-0000-0000-0000-00005eef89bd
+Reference = C15;
+ValeurCmp = 100n;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005f0885f4
+Path = /00000000-0000-0000-0000-00005ef4c292
+Reference = MH1;
+ValeurCmp = NPTH FD2.75mm SM3.15mm KO6mm;
+IdModule  = RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005f088646
+Path = /00000000-0000-0000-0000-00005ef4d57b
+Reference = MH4;
+ValeurCmp = NPTH FD2.75mm SM3.15mm KO6mm;
+IdModule  = RPI_COMPILED:none_mh_npth_fd2p75mm_sm3p15mm_ko6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 00000000-0000-0000-0000-00005f0dfda4
+Path = /00000000-0000-0000-0000-00005f1af96d
+Reference = C17;
+ValeurCmp = 10u;
+IdModule  = RPI_COMPILED:generic_capc2012x125;
+EndCmp
+
+BeginCmp
+TimeStamp = 250a8886-6195-4450-a39b-57b4932ef87c
+Path = /5301fbf3-e5eb-458a-9cf5-0f13bb166547
+Reference = C2;
+ValeurCmp = 15p;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 488b2f55-d820-4fae-91e5-1d25d921d5ee
+Path = /d3605f56-0738-4e23-8ea5-8fa03833fdda
+Reference = C3;
+ValeurCmp = 15p;
+IdModule  = RPI_COMPILED:generic_capc1005x50;
+EndCmp
+
+BeginCmp
+TimeStamp = 5eb59c79-3d21-40e1-bcc1-656d5067130d
+Path = /3f164bbe-0cd7-477a-8f46-961f6ff809ad
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = RPI_COMPILED:generic_xtalcc320x250x80-4;
+EndCmp
+
+BeginCmp
+TimeStamp = e5eb59d5-9a94-434e-871c-ae49d30090d1
+Path = /960c2bc7-2098-4c7f-a20d-3f6dfc61c0ce
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = RPI_COMPILED:generic_resc1005x35;
+EndCmp
+
+EndListe

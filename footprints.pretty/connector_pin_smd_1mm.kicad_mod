@@ -1,0 +1,79 @@
+(footprint "connector_pin_smd_1mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "PAD_1MM")
+	(property "Reference" "J25"
+		(at 0 -1.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4310cbf2-bf92-42c0-9d76-c8ef597b9ba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "gpio_rp2040"
+		(at 0 1 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df663d6c-d79f-4bb1-847a-38ebe9ca0d82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "bb0a8c33-3c8a-4d85-8b31-d625cfca8ea7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "badcf6b9-dd46-40ce-9c61-fcee3bc6576d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "/picohw/")
+	(sheetfile "picohw.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca84095e-d249-4ba5-ab43-5cc77caf4cfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0 180)
+		(size 1.016 1.016)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f86398f2-b186-4347-b323-d148a87b252b")
+	)
+	(embedded_fonts no)
+)
